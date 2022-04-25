@@ -1,0 +1,22 @@
+@charset "UTF-8";
+body{
+    background-color:rgb(83, 83, 83);
+    font: normal 17px Arial;
+    padding: 2px;
+    text-align: justify;
+}
+h1{
+    color:rgb(209, 224, 236); 
+}
+h2{
+    color:rgb(175, 175, 175);
+}
+p{
+    color:rgb(187, 200, 211)
+}
+h3{
+    color: rgb(179, 180, 180);
+}
+h4{
+    color:rgb(187, 191, 194)
+}

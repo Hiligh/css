@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        a{
+            color:rgb(46, 19, 19);
+            font-size: 1.2em;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color:rgb(180, 147, 147);
+        }
+        a:hover{
+            text-decoration: underline;
+            color:rgb(10, 119, 119);
+        }
+        a:active{
+            color:rgb(20, 77, 77)
+        }
+        a::after{
+            content: ' (Link)';
+            text-decoration: none;
+            font-weight: normal;
+            color:rgb(129, 85, 30);
+        }
+        a::before{
+            content: '⍟ ';
+        }
+    </style>
+</head>
+<body>
+    <h1><ins>Personalizando Links:</ins></h1>
+    <ol>
+        <li><a href="https://www.habbo.com.br" target="_blank" rel="external">Link do habbo</a></li>
+        <li><a href="https://www.youtube.com" target="_blank" rel="external">Link do youtube</a></li>
+        <li><a href="https://www.habblet.city" target="_blank" rel="external">Link do habblet</a></li>
+    </ol>
+</body>
+</html>
